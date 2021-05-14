@@ -2,10 +2,11 @@
   "name": "blade",
   "version": "0.0.1",
   "description": "a tool package like blade.",
-  "main": "index.js",
+  "main": "./dist/index.js",
   "author": "byken",
   "license": "MIT",
   "scripts": {
+    "build": "tsc",
     "test": "jest"
   },
   "dependencies": {
