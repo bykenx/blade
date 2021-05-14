@@ -1,0 +1,21 @@
+{
+  "compilerOptions": {
+    "target": "es2017",
+    "module": "esnext",
+    "allowSyntheticDefaultImports": true,
+    "experimentalDecorators": true,
+    "removeComments": false,
+    "sourceMap": true,
+    "baseUrl": ".",
+    "rootDir": ".",
+    "outDir": "lib",
+    "moduleResolution": "node"
+  },
+  "exclude": [
+    "__tests__",
+    "node_modules",
+    "dist",
+    "tests",
+    "**/*.spec.ts"
+  ]
+}
