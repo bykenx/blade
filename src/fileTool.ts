@@ -1,6 +1,9 @@
 import { Completer } from "./completer"
 import { fromBuffer as fileTypeFromBuffer } from "file-type"
 
+/**
+ * 文件处理工具
+ */
 export class FileTool {
   /** `File` 转 `DataURL` */
   static convertToDataUrl(file: File) {
