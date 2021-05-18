@@ -1,4 +1,4 @@
-import FileTool from "../src/fileTool"
+import { FileTool } from "../src/fileTool"
 
 const { readFileSync } = require('fs')
 const { join } = require('path')

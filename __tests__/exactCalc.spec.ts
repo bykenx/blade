@@ -1,4 +1,4 @@
-import ExactCalc from "../src/exactCalc"
+import { ExactCalc } from "../src/exactCalc"
 
 describe("ExactCalc Test", () => {
 

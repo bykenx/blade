@@ -1,4 +1,4 @@
-import throttle from "../src/throttle"
+import { throttle } from "../src/throttle"
 
 describe('Throttle Test', () => {
   test('throttle', () => {

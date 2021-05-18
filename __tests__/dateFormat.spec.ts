@@ -1,4 +1,4 @@
-import DateFormat from "../src/dateFormat"
+import { DateFormat } from "../src/dateFormat"
 
 describe('DataFormat Test', () => {
     test('format date test', () => {

@@ -1,5 +1,5 @@
-import Completer from "../src/completer"
-import debounce from "../src/debounce"
+import { Completer } from "../src/completer"
+import { debounce } from "../src/debounce"
 
 describe('Debounce Test', () => {
   test('debounce', () => {

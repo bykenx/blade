@@ -1,4 +1,4 @@
-import Completer from "../src/completer"
+import { Completer } from "../src/completer"
 
 describe('completer complete', () => {
   test('completer resolve', async () => {
