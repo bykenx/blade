@@ -1,3 +1,5 @@
-dist
+/dist
+/es
+/lib
 .DS_Store
 node_modules

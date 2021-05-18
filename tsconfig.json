@@ -8,7 +8,7 @@
     "sourceMap": true,
     "baseUrl": ".",
     "rootDir": "src",
-    "outDir": "dist",
+    "outDir": "es",
     "moduleResolution": "node",
     "declaration": true
   },

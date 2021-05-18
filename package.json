@@ -1,14 +1,20 @@
 {
-  "name": "blade",
+  "name": "blade-utils",
   "version": "0.0.1",
   "description": "a tool package like blade.",
-  "main": "./dist/index.js",
+  "main": "es/index.js",
+  "types": "es/index.d.ts",
   "author": "byken",
   "license": "MIT",
   "scripts": {
-    "build": "tsc",
+    "build": "rm -rf es && tsc",
     "test": "jest"
   },
+  "files": [
+    "lib",
+    "es",
+    "dist"
+  ],
   "dependencies": {
     "file-type": "^16.2.0",
     "moment": "^2.29.1",
@@ -25,5 +31,8 @@
   },
   "peerDependencies": {
     "react": "^17.0.2"
+  },
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/"
   }
 }
