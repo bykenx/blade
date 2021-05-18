@@ -1,4 +1,4 @@
-export default class Completer<T> {
+export class Completer<T> {
 
   private _finished: boolean
   private _resolve: Function

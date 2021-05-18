@@ -1,4 +1,4 @@
-export default function throttle(func: Function, delay: number) {
+export function throttle(func: Function, delay: number) {
   let wait = false
   return (...args: any[]) => {
     if (!wait) {

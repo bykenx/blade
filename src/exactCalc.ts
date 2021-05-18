@@ -4,7 +4,7 @@ type ValidExecObject = number | string
  * 精确计算
  * @class
  */
-export default class ExactCalc {
+export class ExactCalc {
 
   constructor() {
     throw TypeError('ExactCalc is not a constructor')

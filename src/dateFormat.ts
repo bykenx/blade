@@ -2,7 +2,7 @@
  * @class DateFormat
  * 日期、时间格式化
  */
-export default class DateFormat {
+export class DateFormat {
   /**
    * 按 `1972-01-01` 格式化日期
    * @param date 

@@ -1,7 +1,7 @@
 import Completer from "./completer"
 import { fromBuffer as fileTypeFromBuffer } from "file-type"
 
-export default class FileTool {
+export class FileTool {
   /** `File` 转 `DataURL` */
   static convertToDataUrl(file: File) {
     const reader = new FileReader()

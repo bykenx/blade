@@ -1,6 +1,6 @@
 import { Dispatch, SetStateAction, useCallback, useRef, useState } from 'react'
 
-export default function useResetState<T>(defaultValueOrFunc: T | (() => T)): [T, Dispatch<SetStateAction<T>>, () => void] {
+export function useResetState<T>(defaultValueOrFunc: T | (() => T)): [T, Dispatch<SetStateAction<T>>, () => void] {
   const initializedRef = useRef(false)
   const defaultValueRef = useRef<T>()
   if (!initializedRef.current) {

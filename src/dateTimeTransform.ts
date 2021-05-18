@@ -3,7 +3,7 @@ import { isNone } from './base'
 /**
  * 日期时间转化工具
  */
-export default class DateTimeTransform {
+export class DateTimeTransform {
   /**
    * 将 Moment 类型的时间转化为 unix 时间戳（10位）
    */

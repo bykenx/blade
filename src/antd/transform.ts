@@ -17,7 +17,7 @@ import { isNone } from '../base'
  * </Form.Item>
  * ```
  */
-export default class AntdTransform {
+export class AntdTransform {
   /**
    * 只转化范围，格式不做处理
    */
