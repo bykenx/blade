@@ -1,4 +1,4 @@
-import Completer from "./completer"
+import { Completer } from "./completer"
 import { fromBuffer as fileTypeFromBuffer } from "file-type"
 
 export class FileTool {
