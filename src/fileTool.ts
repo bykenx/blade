@@ -37,4 +37,23 @@ export class FileTool {
     }
     return formData
   }
+
+  /**
+   * 下载文件
+   */
+  static downloadBlob(data: BlobPart, filename: string, options: BlobPropertyBag) {
+    const urlObj = window.URL || window.webkitURL,
+      blob = new Blob([data], options)
+    var link = (document.createElementNS("http://www.w3.org/1999/xhtml", "a")) as HTMLAnchorElement
+    link.href = urlObj.createObjectURL(blob)
+    link.download = filename
+
+    // fake click!
+    const e = document.createEvent('MouseEvents')
+    e.initMouseEvent(
+      "click", true, false, window, 0, 0, 0, 0, 0,
+      false, false, false, false, 0, null
+    )
+    link.dispatchEvent(e)
+  }
 }
