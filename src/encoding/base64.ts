@@ -1,4 +1,4 @@
-import { isBrowser } from "src/platform"
+import { isBrowser } from "../platform"
 
 /**
  * 将 `utf-16` 字符串转化为 `base64` 字符串

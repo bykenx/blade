@@ -7,4 +7,4 @@ export * from './exactCalc'
 export * from './fileTool'
 export * from './querystring'
 export * from './throttle'
-
+export * from './encoding'
