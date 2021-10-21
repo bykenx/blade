@@ -10,7 +10,12 @@
     "rootDir": "src",
     "outDir": "es",
     "moduleResolution": "node",
-    "declaration": true
+    "declaration": true,
+    "lib": [
+      "ES2017",
+      "DOM"
+    ],
+    "types": ["node"]
   },
   "exclude": [
     "__tests__",
